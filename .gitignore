@@ -1,0 +1,79 @@
+######################
+# Project Specific
+######################
+/build/**
+
+######################
+# Intellij
+######################
+**/.idea/**
+**/out/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+# IDE - VSCode
+.vscode/
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/extensions.json
+
+######################
+# Gradle
+######################
+.gradle/
+.gradle/**
+gradle.properties
+
+######################
+# Package Files
+######################
+*.jar
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+######################
+# Directories
+######################
+build/**
+build
+bin
+target/**
+target
+/spring_loaded/**
+/deploy/**
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
